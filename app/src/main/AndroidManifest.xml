@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WarrantyMaintenance"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".SupervisorDashboardActivity" />
+        <activity android:name=".AddTechnicianActivity" />
+        <activity android:name=".AddWarrantyActivity" />
+        <activity android:name=".ViewIssuesActivity" />
+        <activity android:name=".AnalyticsActivity" />
+        <activity android:name=".TechnicianDashboardActivity" />
+        <activity android:name=".UserDashboardActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".TechniciansActivity" />
+        <activity android:name=".WarrantyExpiryActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".ServiceHistoryActivity" />
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".TechnicianProfileActivity" />
+        <activity android:name=".ReportIssueActivity" />
+        <activity android:name=".AssignTechnicianActivity" />
+        <activity android:name=".TaskDetailsActivity" />
+    </application>
+
+</manifest>

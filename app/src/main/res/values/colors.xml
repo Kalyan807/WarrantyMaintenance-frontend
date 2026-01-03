@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Simple App Background -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_surface">#FFFFFF</color>
+    
+    <!-- Primary Brand Colors - Minimal -->
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#42A5F5</color>
+    
+    <!-- Accent Color -->
+    <color name="accent">#1976D2</color>
+    <color name="accent_purple">#673AB7</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#D32F2F</color>
+    
+    <!-- Card & Surface - White -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_elevated">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    
+    <!-- Text Colors - Emphasized -->
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#424242</color>
+    <color name="text_hint">#757575</color>
+    <color name="text_highlight">#1976D2</color>
+    
+    <!-- Input Text Color -->
+    <color name="input_text_color">#000000</color>
+</resources>
